@@ -1,0 +1,57 @@
+/* Body principale */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+/* Pulsante rotondo */
+button {
+    background-color: #ae021b;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ae021b;
+    transform: scale(1.1);
+}
+
+/* Effetto rimbalzo quando il pulsante viene premuto */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Animazione del testo */
+h1 {
+    font-size: 2.5rem;
+    animation: floaty 3s infinite ease-in-out;
+}
+
+@keyframes floaty {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+/* Layout responsive per schermi piccoli */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
