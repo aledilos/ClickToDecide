@@ -1,7 +1,7 @@
 {
-    "name": "Decision Helper",
-    "short_name": "Decider",
-    "description": "Un'app per aiutarti a prendere decisioni.",
+    "name": "Click to Decide",
+    "short_name": "DiloDice",
+    "description": "Pensato per gli indecisi",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
